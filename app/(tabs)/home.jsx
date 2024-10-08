@@ -10,6 +10,7 @@ import {
   RefreshControl,
   Alert,
   TouchableOpacity,
+  Platform
 } from "react-native";
 import React, { useEffect, useState } from "react";
 import Trending from "../../components/Trending";
@@ -18,6 +19,11 @@ import VideoCard from "../../components/VideoCard";
 import Latest from "../../components/Latest";
 import { usePathname,router } from "expo-router";
 import { useGlobalContext } from "../../context/GlobalProvider";
+
+
+
+
+
 
 const Home = () => {
   const [refreshing, setRefreshing] = useState(false);

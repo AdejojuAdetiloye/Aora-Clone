@@ -6,6 +6,9 @@ import CustomButton from "../components/CustomButton";
 import { StatusBar } from "expo-status-bar";
 import { useGlobalContext } from "../context/GlobalProvider";
 
+
+
+
 const App = () => {
 //get access to useGlobalContext
 const {isLoggedIn,isLoading} = useGlobalContext();
